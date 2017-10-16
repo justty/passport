@@ -30,6 +30,12 @@
         "symfony/psr-http-message-bridge": "~1.0",
         "zendframework/zend-diactoros": "~1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/justty/oauth2-server"
+        }
+    ],
     "require-dev": {
         "mockery/mockery": "~0.9",
         "phpunit/phpunit": "~5.0"
