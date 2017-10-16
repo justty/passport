@@ -15,7 +15,6 @@
     ],
     "require": {
         "php": ">=5.6.4",
-        "justty/oauth2-server": "dev-dev-fix",
         "firebase/php-jwt": "~3.0|~4.0|~5.0",
         "guzzlehttp/guzzle": "~6.0",
         "illuminate/auth": "~5.4",
@@ -30,12 +29,6 @@
         "symfony/psr-http-message-bridge": "~1.0",
         "zendframework/zend-diactoros": "~1.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/justty/oauth2-server"
-        }
-    ],
     "require-dev": {
         "mockery/mockery": "~0.9",
         "phpunit/phpunit": "~5.0"
